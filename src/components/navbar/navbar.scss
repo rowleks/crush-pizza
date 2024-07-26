@@ -5,15 +5,19 @@
     padding: 18px 5px;
 
     .mid {
-        display: flex;
-        gap: 10px;
-        align-items: center;
-        cursor: pointer;
+        // display: flex;
+        // gap: 10px;
+        // align-items: center;
+        // cursor: pointer;
 
-        span {
-            font-size: 12px;
-            line-height: 22px;
+        img {
+            width: 90px;
         }
+
+        // span {
+        //     font-size: 12px;
+        //     line-height: 22px;
+        // }
     }
 
     img {

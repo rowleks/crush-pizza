@@ -15,19 +15,19 @@ function MealMenu() {
                     <p>Pepper Pizza</p>
                     <span>5kg box of Pizza</span>
                 </div>
-                <p className="price">N 800</p>
+                <p className="price">N 1000</p>
 
             </div>
         </div>
 
         <div className="card">
-            <img src="menu-pic.png" alt="" />
+            <img src="menu-pic2.png" alt="" />
             <div className="info">
                 <div className="item">
-                    <p>Pepper Pizza</p>
-                    <span>5kg box of Pizza</span>
+                    <p>Chicken Burger </p>
+                    <span>Large sized Burger</span>
                 </div>
-               <p className="price">N 800</p>
+               <p className="price">N 2000</p>
 
             </div>
         </div>

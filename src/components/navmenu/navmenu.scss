@@ -9,5 +9,11 @@
 
     .home, .cart, .profile, .notif {
         cursor: pointer;
+
+        &.selected {
+            padding: 12px 19px;
+            background: linear-gradient(97.57deg, rgba(217, 112, 20, 0.1) 0%, rgba(177, 96, 25, 0.1) 103.03%);
+
+        }
     }
 }

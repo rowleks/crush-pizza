@@ -37,7 +37,7 @@ function OrderCards({ selectedSnack }) {
             <img src={item.image} alt={item.name} />
             <div className="info-section">
               <p>{item.name}</p>
-              <span>N{item.price}</span>
+              <span>N {item.price}</span>
               <img className="cart" src="/cart-icon1.png" alt="Cart" />
             </div>
           </div>
