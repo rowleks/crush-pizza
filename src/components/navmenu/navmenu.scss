@@ -1,0 +1,13 @@
+.navmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+    background: #FFF;
+    border-radius: 20px;
+    box-shadow: 3px 2px 3px #444;
+
+    .home, .cart, .profile, .notif {
+        cursor: pointer;
+    }
+}
