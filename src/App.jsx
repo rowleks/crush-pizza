@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.scss"
 import Home from "./pages/homepage/Home"
+import Signup from "./pages/signup-page/Signup";
 function App() {
 
   const router = createBrowserRouter([
@@ -10,7 +11,7 @@ function App() {
     },
     {
       path: "signup",
-      element: <div>About</div>,
+      element: <Signup />,
     },
   ]);
 

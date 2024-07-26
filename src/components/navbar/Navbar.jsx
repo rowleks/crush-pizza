@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./navbar.scss";
 
 function Navbar() {
@@ -5,11 +6,15 @@ function Navbar() {
     <div>
         <div className="header">
             <img src="/ham-icon.png" alt="" />
+            <Link to="/">
             <div className="mid">
-                <img src="/location-icon.png" alt="" />
-                <span>Under the Duvet</span>
+                <img src="/logo.png" alt="" />
+                {/* <span>Under the Duvet</span> */}
             </div>
-            <img src="/profile-pic.png" alt="" className="profile" />
+            </Link>
+            
+            <Link to="/signup"><img src="/profile-pic.png" alt="" className="profile" /></Link>
+            
         </div>
       
     </div>

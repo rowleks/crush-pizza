@@ -7,3 +7,13 @@
 body {
     font-family: "Lato";
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:visited {
+    color: #000;
+    text-decoration:none; 
+    cursor:pointer;  
+}

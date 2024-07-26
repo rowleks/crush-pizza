@@ -27,12 +27,21 @@
         cursor: pointer;
         padding: 5px;
 
+        img {
+            height: 62px;
+            width: 62px;
+        }
+
         .info {
             display: flex;
             justify-content: space-between;
             align-items: center;
             width: 100%;
             padding: 5px;
+
+            .price {
+                color: #D97014;
+            }
 
             .item {
                 display: flex;
