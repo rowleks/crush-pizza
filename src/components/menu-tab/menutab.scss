@@ -1,0 +1,23 @@
+.menu-tab {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+    .snack {
+        display: flex;
+        gap: 1rem;
+        border: 1px solid #000;
+        padding: 8px;
+        align-items: center;
+        width: fit-content;
+        height: 40px;
+        border-radius: 7px;
+        cursor: pointer;
+
+        img {
+            height: 24px;
+            width: 24px;
+        }
+    }
+}

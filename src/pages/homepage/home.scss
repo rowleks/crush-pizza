@@ -1,0 +1,35 @@
+.home {
+
+    .view {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+
+
+        .search {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            gap: 25px;
+            padding: 8px;
+            background: #E4E4E4;
+            border-radius: 10px;
+    
+    
+            input {
+                border: none;
+                width: 100%;
+                background: none;
+    
+                &:focus {
+                    background: none;
+                    outline: none;
+                }
+            }
+        }
+
+    }
+
+
+}

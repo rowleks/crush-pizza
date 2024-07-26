@@ -1,0 +1,76 @@
+.order-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+
+    p {
+        font-weight: bold;
+    }
+
+    &::after {
+        content: '';
+        background: #D97014;
+        width: 80px;
+        height: 5px;
+        margin: 5px auto;
+        border-radius: 12px;
+        opacity: 0.5;
+    }
+
+    .often-order {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            font-weight: bold;
+        }
+
+        span {
+            font-size: 12px;
+            cursor: pointer;
+        }
+    }
+
+    .order-card {
+        display: flex;
+        justify-content: space-between;
+
+        .card {
+            width: max-content;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            box-shadow: 3px 2px 3px #444;
+            padding: 1px;
+            cursor: pointer;
+
+            img {
+                width: 215px;
+                object-fit: cover;
+            }
+
+            .info-section {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                position: relative;
+                margin-bottom: 5px;
+
+                .cart {
+                    width: 23px;
+                    height: 23px;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    
+                }
+
+                span {
+                    color:#D97014;
+                    ;
+                }
+            }
+        }
+    }
+}
