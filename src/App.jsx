@@ -3,6 +3,7 @@ import "./App.scss"
 import Home from "./pages/homepage/Home"
 import Signup from "./pages/signup-page/Signup";
 import Login from "./pages/login-page/Login";
+import Cart from "./pages/cartpage/Cart";
 function App() {
 
   const router = createBrowserRouter([
@@ -17,6 +18,10 @@ function App() {
     {
       path: "login",
       element: <Login />,
+    },
+    {
+      path: "add-cart",
+      element: <Cart />,
     },
   ]);
 
