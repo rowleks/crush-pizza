@@ -39,9 +39,11 @@ function Signup() {
                     <span className="line"></span>
                 </div>
 
+                <Link to="/login">
                 <div className="log-in">
                     <span>Log in</span>
                 </div>
+                </Link>
             </div>
         </div>
 

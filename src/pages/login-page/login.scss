@@ -1,0 +1,132 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+
+    .back-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+    }
+
+    .logo {
+        cursor: pointer
+        ;
+        img {
+            object-fit: cover;
+        }
+    }
+
+    .log-options {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+
+        .log-info {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            
+        .logs {
+            display: flex;
+            padding: 16px;
+            background: #251917;
+            border-radius: 10px;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+
+            input {
+                border: none;
+                width: 100%;
+                background: none;
+                padding: 5px;
+    
+                &:focus {
+                    background: none;
+                    outline: none;
+                    color: #FFF;
+                }
+
+                &::placeholder {
+                    color: #FFF;
+                }
+            }
+        }
+
+        .remember-me {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+
+            input {
+                accent-color: #D97014;
+                border: 1px solid #D97014;
+            }
+
+            span {
+                font-size: 12px;
+            }
+        }
+
+        .log-in {
+         background: #D97014;
+         padding: 20px;
+         border-radius: 10px;
+         display: flex;
+         justify-content: center;
+         cursor: pointer;
+ 
+         span {
+             color: #FFF;
+ 
+         }
+        }
+
+        .fg-pwd {
+            color: #1E1E1EB2;
+            font-size: 12px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+
+
+       .hr-lines {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 5px;
+
+        .line {
+            background: #000;
+            width: 30%;
+            height: 2px;
+        }
+       }
+
+       .ss-logs {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 50px;
+
+        img {
+            cursor: pointer;
+        }
+       }
+
+        }
+
+
+
+    }
+}
