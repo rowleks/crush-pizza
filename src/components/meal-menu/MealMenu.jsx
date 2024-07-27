@@ -19,7 +19,7 @@ function MealMenu() {
                     <p>Chicken Pizza</p>
                     <span>5kg box of Pizza</span>
                 </div>
-                <p className="price">N 1000</p>
+                <p className="price">N 1,000</p>
 
             </div>
         </div>
@@ -33,7 +33,7 @@ function MealMenu() {
                     <p>Chicken Burger </p>
                     <span>Large sized Burger</span>
                 </div>
-               <p className="price">N 2000</p>
+               <p className="price">N 2,000</p>
 
             </div>
         </div>

@@ -1,0 +1,135 @@
+.order-details {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+
+    h2 {
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .back-icon {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .card {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        box-shadow: 1px 2px 3px #444;
+        height: 105px;
+        padding: 20px 10px;
+        width: 100%;
+        border-radius: 7px;
+
+        img {
+            width: 62px;
+            height: 62px;
+            object-fit: cover;
+        }
+
+        .info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                gap: 3px;
+
+                p {
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+
+                .price {
+                    color: #D97014;
+                }
+
+                span {
+                    font-size: 14px;
+                    color: #1E1E1EB2;
+
+                }
+
+            }
+
+            .quantity {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+
+                .add {
+                    padding: 5px;
+                    background-color: #D97014;
+                    width: 26px;
+                    text-align: center;
+                    color: #FFF;
+                    border-radius: 7px;
+                    cursor: pointer;
+                }
+
+                .minus {
+                    padding: 5px;
+                    background-color: #D9701440;
+                    width: 26px;
+                    text-align: center;
+                    color: #D97014;
+                    border-radius: 7px;
+                    cursor: pointer;
+
+                }
+
+
+            }
+        }
+    }
+
+    .order-card {
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        background-color: #D97014;
+        width: 100%;
+        border-radius: 10px;
+        padding: 15px 10px;
+        gap: 8px;
+
+        span {
+            color: #FFF;
+        }
+
+        .line {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .total {
+                font-weight: bold;
+            }
+        }
+
+        .place-order {
+            background-color: #FFF;
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+            padding: 20px;
+            cursor: pointer;
+
+            span {
+                color: #D97014;
+            }
+
+           
+        }
+    }
+
+}

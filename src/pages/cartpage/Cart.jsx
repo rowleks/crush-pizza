@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./cart.scss";
 
 function Cart() {
@@ -37,9 +37,11 @@ function Cart() {
                 <span>Sink your teeth into savings with our mouthwatering Chicken Burger Promo! 🍔🔥 </span>
             </div>
 
+        <Link to="/checkout">
         <div className="add-cart">
             <span>Add to Cart</span>
         </div>
+        </Link>
 
 
        </div>
