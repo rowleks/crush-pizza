@@ -2,6 +2,12 @@ import { Link } from "react-router-dom";
 import "./mealmenu.scss";
 
 function MealMenu() {
+
+    const linkStyles = {
+        color: "#000",
+        textDecoration: "none", 
+        cursorPointer: "pointer"  
+    }
   return (
     <div className="meal-menu">
         <div className="popular-order">
@@ -9,7 +15,7 @@ function MealMenu() {
             <span>See all</span>
         </div>
 
-        <Link to="/add-cart">
+        <Link style={linkStyles} to="/add-cart">
         
         
         <div className="card">
