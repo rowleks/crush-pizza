@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./orderdetails.scss";
 import { useState } from "react";
 
@@ -25,7 +25,7 @@ function OrderDetails() {
                     <div className="item">
                         <p>Chicken Burger </p>
                         <span>Promo Pack</span>
-                        <p className="price">N 5,000</p>
+                        <p className="price">N {price.toLocaleString()}</p>
                     </div>
                     <div className="quantity">
                         <p onClick={minusQuantity} className="minus">-</p>
@@ -52,9 +52,13 @@ function OrderDetails() {
                     <span className="total">Total</span>
                     <span className="total">N {total.toLocaleString()}</span>
                 </div>
+
+                <Link to="success">
                 <div className="place-order">
                     <span>Place My order</span>
                 </div>
+                
+                </Link>
             </div>
         </div>
     );
