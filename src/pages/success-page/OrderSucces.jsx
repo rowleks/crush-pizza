@@ -1,8 +1,8 @@
 import { useState } from "react";
-import "./success.scss";
+import "./ordersuccess.scss";
 import { Link } from "react-router-dom";
 
-function Success() {
+function OrderSuccess() {
   const [rating, setRating] = useState(0); // Initial state set to 0 (no stars filled)
 
   const handleStarClick = (index) => {
@@ -46,4 +46,4 @@ function Success() {
   );
 }
 
-export default Success;
+export default OrderSuccess;

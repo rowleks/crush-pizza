@@ -7,10 +7,13 @@ OrderCards.propTypes = {
   selectedSnack: PropTypes.string,
 };
 
+OrderCards.defaultProps = {
+  selectedSnack: 'burger',
+};
+
 function OrderCards({ selectedSnack }) {
   let items = [];
 
-  // Determine which items to display based on selectedSnack
   switch (selectedSnack) {
     case 'pizza':
       items = orderPizza;
@@ -33,10 +36,10 @@ function OrderCards({ selectedSnack }) {
       </div>
 
       <div className="order-card">
-        {items.map((item, index) => {
+        {items.map((item) => {
           const cardContent = (
-            <div className="card" key={index}>
-              <img src={item.image} alt={item.name} />
+            <div className="card" key={item.id}>
+              <img src={item.image} alt={`${item.name} image`} />
               <div className="info-section">
                 <p>{item.name}</p>
                 <span>N {item.price.toLocaleString()}</span>
@@ -45,9 +48,8 @@ function OrderCards({ selectedSnack }) {
             </div>
           );
 
-          // Conditionally wrap with Link if item name matches "Chicken Pizza"
           return item.name === "Chicken Pizza" ? (
-            <Link to="/add-cart" key={index}>
+            <Link to="/add-cart" key={item.id} className="card-link">
               {cardContent}
             </Link>
           ) : (

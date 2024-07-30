@@ -1,6 +1,5 @@
 .home {
-    position: relative;
-
+    margin-bottom: 10px;
     .view {
         display: flex;
         flex-direction: column;
@@ -33,10 +32,7 @@
 
     }
 
-    .fixed-menu {
-        position: sticky;
-        bottom: 2px;
-    }
+
 
 
 }

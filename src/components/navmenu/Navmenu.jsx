@@ -3,7 +3,7 @@ import "./navmenu.scss";
 
 function Navmenu() {
 
-    const [selectedNav, setSelectedNav] = useState(null);
+    const [selectedNav, setSelectedNav] = useState("home");
 
     const handleSnackClick = (nav) => {
         setSelectedNav(nav);
@@ -29,6 +29,7 @@ function Navmenu() {
         className={`notif ${selectedNav === 'notif' ? 'selected' : ''}`}
         onClick={() => handleSnackClick('notif')}>
             <img src="/notif-icon.png" alt="" />
+            <span className="dot"></span>
         </div>
 
       

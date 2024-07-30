@@ -7,8 +7,32 @@
     border-radius: 20px;
     box-shadow: 3px 2px 3px #444;
 
+    .home {
+        margin-top: 5px;
+    }
+
+    .notif {
+        img {
+            position: relative;
+        }
+
+        span {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #D97014;
+        }
+    }
+
     .home, .cart, .profile, .notif {
+
         cursor: pointer;
+
+        img {
+            width: 27px;
+            height: 27px;
+        }
 
         &.selected {
             padding: 12px 19px;

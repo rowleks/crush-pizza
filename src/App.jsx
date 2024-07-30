@@ -5,7 +5,7 @@ import Signup from "./pages/signup-page/Signup";
 import Login from "./pages/login-page/Login";
 import Cart from "./pages/cartpage/Cart";
 import OrderDetails from "./pages/orderdetails-page/OrderDetails";
-import Success from "./pages/success-page/Success";
+import OrderSuccess from "./pages/success-page/OrderSucces";
 function App() {
 
   const router = createBrowserRouter([
@@ -31,7 +31,7 @@ function App() {
     },
     {
       path: "checkout/success",
-      element: <Success />,
+      element: <OrderSuccess />,
     },
   ]);
 
